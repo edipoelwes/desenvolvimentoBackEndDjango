@@ -8,22 +8,50 @@
             gasto e a forma de pagamento (dinheiro, cheque, cartão ou cheque pré).
             Utilizando Python com Django, crie uma aplicação para armazenar os gastos de Vera.
 
-                                        Despesas
-                                    _____________________
+                                    _________________________
+                                             Despesas
+                                    _________________________
                                     data_criacao: string
-                                    _____________________
+                                    _________________________
                                     tipo_despesa: string
-                                    _____________________
+                                    _________________________
                                     descrição: string
-                                    _____________________
+                                    _________________________
                                     forma_pagamento: string
-                                    _____________________
+                                    _________________________
                                     vencimento: data
-                                    _____________________
+                                    _________________________
                                     quitado: bool
-                                    _____________________
+                                    _________________________
 
             Opcional: Aplique as opções com choices para os campos Forma Pagamento de Tipo de Despesa. Choices
             são listas ou tuplas que definem opções restritivas à campos. Se as forem informadas, elas serão aplicadas
             pela validação do modelo, podendo até mesmo substituir um campo Foreign Key. Para ver a documentação,
             clique aqui.
+
+
+
+        
+        * Projeto 2 / Compras Carolina = branch compras
+
+            02. Carolina não tem mais tempo de fazer as compras pessoalmente. Precisou detalhar o produto, de forma
+            a lhe permitir delegar essa tarefa a outra pessoa. Além disso, não quer que paguem um valor absurdo
+            por algum produto. Sendo assim, incluiu a coluna "preço máximo já comprado". O "preço máximo já
+            comprado" é inserido, a partir das compras efetivamente realizadas.
+            Utilizando Python com Django, crie uma aplicação para armazenar as compras de Carolina.
+
+
+                                    ______________________
+                                            Compras
+                                    ______________________
+                                    nome: string
+                                    ______________________
+                                    descricao: string
+                                    ______________________
+                                    unidadeCompra: string
+                                    ______________________
+                                    preco: real
+                                    ______________________
+                                    precoMaximo: real
+                                    ______________________
+                        
