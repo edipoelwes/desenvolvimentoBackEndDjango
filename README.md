@@ -54,4 +54,21 @@
                                     ______________________
                                     precoMaximo: real
                                     ______________________
-                        
+
+
+
+        * Projeto 3 / Condominio Marina = branch condominio
+        
+            03. Marina é síndica do prédio onde mora. A fim de melhor gerenciar o condomínio, ela encomendou uma aplicação a um amigo. Utilizando Python com Django, crie uma aplicação para armazenar os apartamentos de Marina.
+
+__________________
+                                         Apartamentos
+                                    ______________________
+                                    numero: inteiro
+                                    ______________________
+                                    qtdQuartos: inteiro
+                                    ______________________
+                                    proprietario: string
+                                    ______________________
+                                    valorCondominio: real
+                                    ______________________
