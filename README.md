@@ -58,8 +58,10 @@
 
 
         * Projeto 3 / Condominio Marina = branch condominio
-        
-            03. Marina é síndica do prédio onde mora. A fim de melhor gerenciar o condomínio, ela encomendou uma aplicação a um amigo. Utilizando Python com Django, crie uma aplicação para armazenar os apartamentos de Marina.
+
+            03. Marina é síndica do prédio onde mora. A fim de melhor gerenciar o condomínio,
+            ela encomendou uma aplicação a um amigo. Utilizando Python com Django, 
+            crie uma aplicação para armazenar os apartamentos de Marina.
 
 __________________
                                          Apartamentos
